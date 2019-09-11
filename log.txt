@@ -1,0 +1,423 @@
+1561690756544	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\TUANDO~1.AD\\AppData\\Local\\Temp\\rust_mozprofile.pht3Mfi2Fj91"
+1561690757486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561690757486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561690757486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561690757610	Marionette	TRACE	Received observer notification profile-after-change
+1561690757661	Marionette	TRACE	Received observer notification toplevel-window-ready
+1561690757730	Marionette	TRACE	Received observer notification command-line-startup
+1561690757730	Marionette	TRACE	Received observer notification nsPref:changed
+1561690757730	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1561690758038	Marionette	TRACE	Received observer notification toplevel-window-ready
+1561690759545	Marionette	TRACE	Received observer notification marionette-startup-requested
+1561690759545	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1561690759776	Marionette	TRACE	Received observer notification domwindowclosed
+1561690759776	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1561690759788	Marionette	TRACE	All scripts recorded.
+1561690759788	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1561690759791	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1561690759791	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1561690759792	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1561690759793	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1561690759793	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1561690759794	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1561690759795	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1561690759796	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1561690759796	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1561690759796	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1561690759797	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1561690759797	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1561690759797	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1561690759798	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1561690759798	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1561690759798	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1561690759799	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1561690759799	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1561690759799	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1561690759799	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1561690759799	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1561690759800	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1561690759800	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1561690759800	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1561690759800	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1561690759801	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1561690759881	Marionette	INFO	Listening on port 53426
+1561690759881	Marionette	DEBUG	Remote service is active
+1561690760378	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53441
+1561690760383	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1561690760384	Marionette	WARN	TLS certificate errors will be ignored for this session
+1561690760412	Marionette	TRACE	[6442450945] Frame script loaded
+1561690760531	Marionette	TRACE	[6442450945] Frame script registered
+1561690760533	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"e2043deb-d56e-4c3d-bbb7-993e3c077620","capabilities":{"browserName":"firefox","browserVersion":"67.0. ... ozprofile.pht3Mfi2Fj91","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1561690761283	Marionette	DEBUG	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+1561690761552	Marionette	DEBUG	0 <- [1,2,null,{"x":-8,"y":-8,"width":1616,"height":886}]
+1561690761556	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":10000}]
+1561690761556	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1561690761561	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"http://10.17.14.207:8282/"}]
+1561690761569	Marionette	TRACE	[6442450945] Received DOM event beforeunload for about:blank
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561680011759%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1561690782893	Marionette	TRACE	[6442450945] Received DOM event pagehide for about:blank
+1561690783375	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://10.17.14.207:8282/
+1561690783567	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://10.17.14.207:8282/
+1561690783570	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1561690783875	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690783882	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7486f3fe-ec42-4161-9fee-21cd7298aa75"}}]
+1561690783889	Marionette	DEBUG	0 -> [0,6,"WebDriver:ElementClear",{"id":"7486f3fe-ec42-4161-9fee-21cd7298aa75"}]
+1561690783896	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1561690783900	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690783903	Marionette	DEBUG	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7486f3fe-ec42-4161-9fee-21cd7298aa75"}}]
+1561690783911	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"7486f3fe-ec42-4161-9fee-21cd7298aa75","text":"Traveler2@tek-experts.com","value":["T","r","a","v","e","l","e","r","2","@","t","e","k","-","e","x","p","e","r","t","s",".","c","o","m"]}]
+1561690783938	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1561690783943	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690783946	Marionette	DEBUG	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7486f3fe-ec42-4161-9fee-21cd7298aa75"}}]
+1561690783959	Marionette	DEBUG	0 -> [0,10,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"7486f3fe-ec42-4161-9fee-21cd7298aa75"},"valu ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690783968	Marionette	DEBUG	0 <- [1,10,null,{"value":"Traveler2@tek-experts.com"}]
+1561690783972	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690783974	Marionette	DEBUG	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0fb5c009-4464-4a8d-a5c8-53eac053b31e"}}]
+1561690783985	Marionette	DEBUG	0 -> [0,12,"WebDriver:ElementClear",{"id":"0fb5c009-4464-4a8d-a5c8-53eac053b31e"}]
+1561690783987	Marionette	DEBUG	0 <- [1,12,null,{"value":null}]
+1561690783991	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690783993	Marionette	DEBUG	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0fb5c009-4464-4a8d-a5c8-53eac053b31e"}}]
+1561690783998	Marionette	DEBUG	0 -> [0,14,"WebDriver:ElementSendKeys",{"id":"0fb5c009-4464-4a8d-a5c8-53eac053b31e","text":"Travel@123","value":["T","r","a","v","e","l","@","1","2","3"]}]
+1561690784012	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1561690784016	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690784020	Marionette	DEBUG	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0fb5c009-4464-4a8d-a5c8-53eac053b31e"}}]
+1561690784026	Marionette	DEBUG	0 -> [0,16,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"0fb5c009-4464-4a8d-a5c8-53eac053b31e"},"valu ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690784033	Marionette	DEBUG	0 <- [1,16,null,{"value":"Travel@123"}]
+1561690784037	Marionette	DEBUG	0 -> [0,17,"WebDriver:FindElement",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690784039	Marionette	DEBUG	0 <- [1,17,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f7808347-a220-4792-8d15-52fd73b16f71"}}]
+1561690784043	Marionette	DEBUG	0 -> [0,18,"WebDriver:ElementClick",{"id":"f7808347-a220-4792-8d15-52fd73b16f71"}]
+1561690784077	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://10.17.14.207:8282/
+1561690789280	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1561690789281	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1561690791285	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElement",{"using":"xpath","value":".//div[@id='step-0']//button[@class='close']"}]
+1561690792552	Marionette	DEBUG	0 <- [1,19,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2363f3c2-2bff-4164-b83e-24631a14529d"}}]
+1561690792556	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElement",{"using":"xpath","value":".//div[@id='step-0']//button[@class='close']"}]
+1561690792562	Marionette	DEBUG	0 <- [1,20,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2363f3c2-2bff-4164-b83e-24631a14529d"}}]
+1561690792567	Marionette	DEBUG	0 -> [0,21,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2363f3c2-2bff-4164-b83e-24631a14529d","element-6066-11e4-a52e-4f735466ce ... ff-4164-b83e-24631a14529d"}],"newSandbox":false,"script":"arguments[0].click();","scriptTimeout":null,"specialPowers":false}]
+1561690792609	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1561690792611	Marionette	DEBUG	0 -> [0,22,"WebDriver:FindElement",{"using":"xpath","value":".//li[@id='submyRequest']//a"}]
+1561690792617	Marionette	DEBUG	0 <- [1,22,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"37c28e0d-acc7-4374-8191-0368323f1b87"}}]
+1561690792633	Marionette	DEBUG	0 -> [0,23,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"37c28e0d-acc7-4374-8191-0368323f1b87"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690792655	Marionette	DEBUG	0 <- [1,23,null,{"value":true}]
+1561690792659	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElement",{"using":"xpath","value":".//li[@id='submyTrip']//a"}]
+1561690792662	Marionette	DEBUG	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"86fa48ac-02c9-4432-aced-8ce2100e14a8"}}]
+1561690792673	Marionette	DEBUG	0 -> [0,25,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"86fa48ac-02c9-4432-aced-8ce2100e14a8"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690792686	Marionette	DEBUG	0 <- [1,25,null,{"value":true}]
+1561690792734	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElements",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690792737	Marionette	DEBUG	0 <- [1,26,null,[{"element-6066-11e4-a52e-4f735466cecf":"30628e99-b63c-4087-a30d-ce9054ad71ac"}]]
+1561690792757	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElement",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690792758	Marionette	DEBUG	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"30628e99-b63c-4087-a30d-ce9054ad71ac"}}]
+1561690792762	Marionette	DEBUG	0 -> [0,28,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"30628e99-b63c-4087-a30d-ce9054ad71ac","element-6066-11e4-a52e-4f735466ce ... 3c-4087-a30d-ce9054ad71ac"}],"newSandbox":false,"script":"arguments[0].click();","scriptTimeout":null,"specialPowers":false}]
+1561690792776	Marionette	DEBUG	0 <- [1,28,null,{"value":null}]
+1561690794789	Marionette	DEBUG	0 -> [0,29,"WebDriver:FindElements",{"using":"xpath","value":".//div[@id='logout-confirm-modal']//input[@class='btn btn-primary']"}]
+1561690794791	Marionette	DEBUG	0 <- [1,29,null,[{"element-6066-11e4-a52e-4f735466cecf":"f029e15c-3286-44ed-acc2-208e47d6129e"}]]
+1561690794800	Marionette	DEBUG	0 -> [0,30,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"f029e15c-3286-44ed-acc2-208e47d6129e"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690794813	Marionette	DEBUG	0 <- [1,30,null,{"value":true}]
+1561690794816	Marionette	DEBUG	0 -> [0,31,"WebDriver:IsElementEnabled",{"id":"f029e15c-3286-44ed-acc2-208e47d6129e"}]
+1561690794822	Marionette	DEBUG	0 <- [1,31,null,{"value":true}]
+1561690794826	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElement",{"using":"xpath","value":".//div[@id='logout-confirm-modal']//input[@class='btn btn-primary']"}]
+1561690794827	Marionette	DEBUG	0 <- [1,32,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f029e15c-3286-44ed-acc2-208e47d6129e"}}]
+1561690794831	Marionette	DEBUG	0 -> [0,33,"WebDriver:ElementClick",{"id":"f029e15c-3286-44ed-acc2-208e47d6129e"}]
+1561690794839	Marionette	DEBUG	0 <- [1,33,{"error":"element click intercepted","message":"Element <input class=\"btn btn-primary\" type=\"submit\"> is not clicka ... avigate@chrome://marionette/content/listener.js:408:7\nclickElement@chrome://marionette/content/listener.js:1200:18\n"},null]
+1561690794866	Marionette	DEBUG	0 -> [0,34,"WebDriver:FindElement",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690794868	Marionette	DEBUG	0 <- [1,34,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"30628e99-b63c-4087-a30d-ce9054ad71ac"}}]
+1561690794877	Marionette	DEBUG	0 -> [0,35,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"30628e99-b63c-4087-a30d-ce9054ad71ac"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690794890	Marionette	DEBUG	0 <- [1,35,null,{"value":true}]
+1561690794894	Marionette	DEBUG	0 -> [0,36,"WebDriver:FindElements",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690794896	Marionette	DEBUG	0 <- [1,36,null,[{"element-6066-11e4-a52e-4f735466cecf":"30628e99-b63c-4087-a30d-ce9054ad71ac"}]]
+1561690794899	Marionette	DEBUG	0 -> [0,37,"WebDriver:FindElement",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690794901	Marionette	DEBUG	0 <- [1,37,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"30628e99-b63c-4087-a30d-ce9054ad71ac"}}]
+1561690794905	Marionette	DEBUG	0 -> [0,38,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"30628e99-b63c-4087-a30d-ce9054ad71ac","element-6066-11e4-a52e-4f735466ce ... 3c-4087-a30d-ce9054ad71ac"}],"newSandbox":false,"script":"arguments[0].click();","scriptTimeout":null,"specialPowers":false}]
+1561690794909	Marionette	DEBUG	0 <- [1,38,null,{"value":null}]
+1561690796912	Marionette	DEBUG	0 -> [0,39,"WebDriver:FindElements",{"using":"xpath","value":".//div[@id='logout-confirm-modal']//input[@class='btn btn-primary']"}]
+1561690796914	Marionette	DEBUG	0 <- [1,39,null,[{"element-6066-11e4-a52e-4f735466cecf":"f029e15c-3286-44ed-acc2-208e47d6129e"}]]
+1561690796922	Marionette	DEBUG	0 -> [0,40,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"f029e15c-3286-44ed-acc2-208e47d6129e"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690796936	Marionette	DEBUG	0 <- [1,40,null,{"value":true}]
+1561690796938	Marionette	DEBUG	0 -> [0,41,"WebDriver:IsElementEnabled",{"id":"f029e15c-3286-44ed-acc2-208e47d6129e"}]
+1561690796942	Marionette	DEBUG	0 <- [1,41,null,{"value":true}]
+1561690796945	Marionette	DEBUG	0 -> [0,42,"WebDriver:FindElement",{"using":"xpath","value":".//div[@id='logout-confirm-modal']//input[@class='btn btn-primary']"}]
+1561690796946	Marionette	DEBUG	0 <- [1,42,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f029e15c-3286-44ed-acc2-208e47d6129e"}}]
+1561690796950	Marionette	DEBUG	0 -> [0,43,"WebDriver:ElementClick",{"id":"f029e15c-3286-44ed-acc2-208e47d6129e"}]
+1561690796976	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://10.17.14.207:8282/PersonalRequest/Index
+1561690797016	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://10.17.14.207:8282/PersonalRequest/Index
+1561690797023	Marionette	TRACE	[6442450945] Received DOM event unload for http://10.17.14.207:8282/PersonalRequest/Index
+1561690797112	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://10.17.14.207:8282/
+1561690797124	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://10.17.14.207:8282/
+1561690797125	Marionette	DEBUG	0 <- [1,43,null,{"value":null}]
+1561690799130	Marionette	DEBUG	0 -> [0,44,"WebDriver:FindElements",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690799132	Marionette	DEBUG	0 <- [1,44,null,[{"element-6066-11e4-a52e-4f735466cecf":"ff8dc18b-09b5-419a-8ffb-df8dc91f8c03"}]]
+1561690799146	Marionette	DEBUG	0 -> [0,45,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"ff8dc18b-09b5-419a-8ffb-df8dc91f8c03"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690799159	Marionette	DEBUG	0 <- [1,45,null,{"value":true}]
+1561690799163	Marionette	DEBUG	0 -> [0,46,"WebDriver:FindElement",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690799164	Marionette	DEBUG	0 <- [1,46,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ff8dc18b-09b5-419a-8ffb-df8dc91f8c03"}}]
+1561690799167	Marionette	DEBUG	0 -> [0,47,"WebDriver:ElementClick",{"id":"ff8dc18b-09b5-419a-8ffb-df8dc91f8c03"}]
+1561690799175	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://10.17.14.207:8282/
+1561690799215	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://10.17.14.207:8282/
+1561690799218	Marionette	TRACE	[6442450945] Received DOM event unload for http://10.17.14.207:8282/
+1561690799305	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://10.17.14.207:8282/
+1561690799310	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://10.17.14.207:8282/
+1561690799310	Marionette	DEBUG	0 <- [1,47,null,{"value":null}]
+1561690801315	Marionette	DEBUG	0 -> [0,48,"WebDriver:FindElements",{"using":"xpath","value":".//span[@data-valmsg-for='Email']"}]
+1561690801317	Marionette	DEBUG	0 <- [1,48,null,[{"element-6066-11e4-a52e-4f735466cecf":"9aef3826-190e-45b4-9c4a-d3fb9ca6c4f6"}]]
+1561690801325	Marionette	DEBUG	0 -> [0,49,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"9aef3826-190e-45b4-9c4a-d3fb9ca6c4f6"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690801337	Marionette	DEBUG	0 <- [1,49,null,{"value":true}]
+1561690801341	Marionette	DEBUG	0 -> [0,50,"WebDriver:FindElement",{"using":"xpath","value":".//span[@data-valmsg-for='Email']"}]
+1561690801342	Marionette	DEBUG	0 <- [1,50,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9aef3826-190e-45b4-9c4a-d3fb9ca6c4f6"}}]
+1561690801344	Marionette	DEBUG	0 -> [0,51,"WebDriver:GetElementText",{"id":"9aef3826-190e-45b4-9c4a-d3fb9ca6c4f6"}]
+1561690801356	Marionette	DEBUG	0 <- [1,51,null,{"value":"Enter your Talentwize email."}]
+1561690801359	Marionette	DEBUG	0 -> [0,52,"WebDriver:FindElements",{"using":"xpath","value":".//span[@data-valmsg-for='Password']"}]
+1561690801361	Marionette	DEBUG	0 <- [1,52,null,[{"element-6066-11e4-a52e-4f735466cecf":"50b3d324-b4b5-410c-9ed1-1cee978bde2a"}]]
+1561690801369	Marionette	DEBUG	0 -> [0,53,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"50b3d324-b4b5-410c-9ed1-1cee978bde2a"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690801381	Marionette	DEBUG	0 <- [1,53,null,{"value":true}]
+1561690801384	Marionette	DEBUG	0 -> [0,54,"WebDriver:FindElement",{"using":"xpath","value":".//span[@data-valmsg-for='Password']"}]
+1561690801386	Marionette	DEBUG	0 <- [1,54,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"50b3d324-b4b5-410c-9ed1-1cee978bde2a"}}]
+1561690801387	Marionette	DEBUG	0 -> [0,55,"WebDriver:GetElementText",{"id":"50b3d324-b4b5-410c-9ed1-1cee978bde2a"}]
+1561690801391	Marionette	DEBUG	0 <- [1,55,null,{"value":"Enter your Talentwize password."}]
+1561690801395	Marionette	DEBUG	0 -> [0,56,"WebDriver:FindElement",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690811402	Marionette	DEBUG	0 <- [1,56,{"error":"no such element","message":"Unable to locate element: .//a[@id='btn-signout']","stacktrace":"WebDriverError@c ... entError@chrome://marionette/content/error.js:389:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1561690811406	Marionette	DEBUG	0 -> [0,57,"WebDriver:FindElements",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690811408	Marionette	DEBUG	0 <- [1,57,null,[{"element-6066-11e4-a52e-4f735466cecf":"4aaf14e1-e811-4ba1-9eca-894c1745ca29"}]]
+1561690811417	Marionette	DEBUG	0 -> [0,58,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"4aaf14e1-e811-4ba1-9eca-894c1745ca29"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690811430	Marionette	DEBUG	0 <- [1,58,null,{"value":true}]
+1561690811433	Marionette	DEBUG	0 -> [0,59,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690811435	Marionette	DEBUG	0 <- [1,59,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4aaf14e1-e811-4ba1-9eca-894c1745ca29"}}]
+1561690811438	Marionette	DEBUG	0 -> [0,60,"WebDriver:ElementClear",{"id":"4aaf14e1-e811-4ba1-9eca-894c1745ca29"}]
+1561690811440	Marionette	DEBUG	0 <- [1,60,null,{"value":null}]
+1561690811444	Marionette	DEBUG	0 -> [0,61,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690811446	Marionette	DEBUG	0 <- [1,61,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4aaf14e1-e811-4ba1-9eca-894c1745ca29"}}]
+1561690811448	Marionette	DEBUG	0 -> [0,62,"WebDriver:ElementSendKeys",{"id":"4aaf14e1-e811-4ba1-9eca-894c1745ca29","text":"ABCDEFGH","value":["A","B","C","D","E","F","G","H"]}]
+1561690811457	Marionette	DEBUG	0 <- [1,62,null,{"value":null}]
+1561690812460	Marionette	DEBUG	0 -> [0,63,"WebDriver:FindElements",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690812466	Marionette	DEBUG	0 <- [1,63,null,[{"element-6066-11e4-a52e-4f735466cecf":"f62db0ac-13f6-4fe9-a04d-78fe2736f887"}]]
+1561690812474	Marionette	DEBUG	0 -> [0,64,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"f62db0ac-13f6-4fe9-a04d-78fe2736f887"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690812487	Marionette	DEBUG	0 <- [1,64,null,{"value":true}]
+1561690812491	Marionette	DEBUG	0 -> [0,65,"WebDriver:FindElement",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690812492	Marionette	DEBUG	0 <- [1,65,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f62db0ac-13f6-4fe9-a04d-78fe2736f887"}}]
+1561690812496	Marionette	DEBUG	0 -> [0,66,"WebDriver:ElementClick",{"id":"f62db0ac-13f6-4fe9-a04d-78fe2736f887"}]
+1561690812505	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://10.17.14.207:8282/
+1561690812520	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://10.17.14.207:8282/
+1561690812520	Marionette	TRACE	[6442450945] Received DOM event unload for http://10.17.14.207:8282/
+1561690812614	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://10.17.14.207:8282/
+1561690812619	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://10.17.14.207:8282/
+1561690812619	Marionette	DEBUG	0 <- [1,66,null,{"value":null}]
+1561690814624	Marionette	DEBUG	0 -> [0,67,"WebDriver:FindElements",{"using":"xpath","value":".//span[@data-valmsg-for='Email']"}]
+1561690814626	Marionette	DEBUG	0 <- [1,67,null,[{"element-6066-11e4-a52e-4f735466cecf":"e64f53f2-798e-426a-b096-1e632348ac04"}]]
+1561690814634	Marionette	DEBUG	0 -> [0,68,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"e64f53f2-798e-426a-b096-1e632348ac04"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690814647	Marionette	DEBUG	0 <- [1,68,null,{"value":true}]
+1561690814650	Marionette	DEBUG	0 -> [0,69,"WebDriver:FindElement",{"using":"xpath","value":".//span[@data-valmsg-for='Email']"}]
+1561690814651	Marionette	DEBUG	0 <- [1,69,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e64f53f2-798e-426a-b096-1e632348ac04"}}]
+1561690814653	Marionette	DEBUG	0 -> [0,70,"WebDriver:GetElementText",{"id":"e64f53f2-798e-426a-b096-1e632348ac04"}]
+1561690814658	Marionette	DEBUG	0 <- [1,70,null,{"value":"The Email field is not a valid e-mail address."}]
+1561690814661	Marionette	DEBUG	0 -> [0,71,"WebDriver:FindElements",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690814663	Marionette	DEBUG	0 <- [1,71,null,[{"element-6066-11e4-a52e-4f735466cecf":"069d0448-48e0-451f-98bc-86c78c304048"}]]
+1561690814671	Marionette	DEBUG	0 -> [0,72,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"069d0448-48e0-451f-98bc-86c78c304048"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690814684	Marionette	DEBUG	0 <- [1,72,null,{"value":true}]
+1561690814687	Marionette	DEBUG	0 -> [0,73,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690814689	Marionette	DEBUG	0 <- [1,73,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"069d0448-48e0-451f-98bc-86c78c304048"}}]
+1561690814692	Marionette	DEBUG	0 -> [0,74,"WebDriver:ElementClear",{"id":"069d0448-48e0-451f-98bc-86c78c304048"}]
+1561690814696	Marionette	DEBUG	0 <- [1,74,null,{"value":null}]
+1561690814699	Marionette	DEBUG	0 -> [0,75,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690814701	Marionette	DEBUG	0 <- [1,75,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"069d0448-48e0-451f-98bc-86c78c304048"}}]
+1561690814704	Marionette	DEBUG	0 -> [0,76,"WebDriver:ElementSendKeys",{"id":"069d0448-48e0-451f-98bc-86c78c304048","text":"BO10@tek-experts.com","value":["B","O","1","0","@","t","e","k","-","e","x","p","e","r","t","s",".","c","o","m"]}]
+1561690814718	Marionette	DEBUG	0 <- [1,76,null,{"value":null}]
+1561690815733	Marionette	DEBUG	0 -> [0,77,"WebDriver:FindElements",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690815735	Marionette	DEBUG	0 <- [1,77,null,[{"element-6066-11e4-a52e-4f735466cecf":"c53c6d0b-e134-408f-89bd-e98fa053d1a3"}]]
+1561690815743	Marionette	DEBUG	0 -> [0,78,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"c53c6d0b-e134-408f-89bd-e98fa053d1a3"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690815755	Marionette	DEBUG	0 <- [1,78,null,{"value":true}]
+1561690815757	Marionette	DEBUG	0 -> [0,79,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690815759	Marionette	DEBUG	0 <- [1,79,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c53c6d0b-e134-408f-89bd-e98fa053d1a3"}}]
+1561690815766	Marionette	DEBUG	0 -> [0,80,"WebDriver:ElementClear",{"id":"c53c6d0b-e134-408f-89bd-e98fa053d1a3"}]
+1561690815768	Marionette	DEBUG	0 <- [1,80,null,{"value":null}]
+1561690815771	Marionette	DEBUG	0 -> [0,81,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690815773	Marionette	DEBUG	0 <- [1,81,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c53c6d0b-e134-408f-89bd-e98fa053d1a3"}}]
+1561690815776	Marionette	DEBUG	0 -> [0,82,"WebDriver:ElementSendKeys",{"id":"c53c6d0b-e134-408f-89bd-e98fa053d1a3","text":"OahqOP","value":["O","a","h","q","O","P"]}]
+1561690815786	Marionette	DEBUG	0 <- [1,82,null,{"value":null}]
+1561690816791	Marionette	DEBUG	0 -> [0,83,"WebDriver:FindElements",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690816793	Marionette	DEBUG	0 <- [1,83,null,[{"element-6066-11e4-a52e-4f735466cecf":"6dac696e-8fba-49cb-9642-5e70dc55bc49"}]]
+1561690816801	Marionette	DEBUG	0 -> [0,84,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"6dac696e-8fba-49cb-9642-5e70dc55bc49"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690816813	Marionette	DEBUG	0 <- [1,84,null,{"value":true}]
+1561690816815	Marionette	DEBUG	0 -> [0,85,"WebDriver:FindElement",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690816817	Marionette	DEBUG	0 <- [1,85,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6dac696e-8fba-49cb-9642-5e70dc55bc49"}}]
+1561690816819	Marionette	DEBUG	0 -> [0,86,"WebDriver:ElementClick",{"id":"6dac696e-8fba-49cb-9642-5e70dc55bc49"}]
+1561690816826	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://10.17.14.207:8282/
+1561690816882	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://10.17.14.207:8282/
+1561690816883	Marionette	TRACE	[6442450945] Received DOM event unload for http://10.17.14.207:8282/
+1561690816966	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://10.17.14.207:8282/
+1561690816972	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://10.17.14.207:8282/
+1561690816972	Marionette	DEBUG	0 <- [1,86,null,{"value":null}]
+1561690818976	Marionette	DEBUG	0 -> [0,87,"WebDriver:FindElements",{"using":"xpath","value":".//div[@class='validation-summary-errors']//span"}]
+1561690818978	Marionette	DEBUG	0 <- [1,87,null,[{"element-6066-11e4-a52e-4f735466cecf":"fde7e273-241b-414b-bc55-605961d16df2"}]]
+1561690818986	Marionette	DEBUG	0 -> [0,88,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"fde7e273-241b-414b-bc55-605961d16df2"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690818999	Marionette	DEBUG	0 <- [1,88,null,{"value":true}]
+1561690819002	Marionette	DEBUG	0 -> [0,89,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='validation-summary-errors']//span"}]
+1561690819003	Marionette	DEBUG	0 <- [1,89,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fde7e273-241b-414b-bc55-605961d16df2"}}]
+1561690819006	Marionette	DEBUG	0 -> [0,90,"WebDriver:GetElementText",{"id":"fde7e273-241b-414b-bc55-605961d16df2"}]
+1561690819009	Marionette	DEBUG	0 <- [1,90,null,{"value":"The username or password is incorrect"}]
+1561690819012	Marionette	DEBUG	0 -> [0,91,"WebDriver:FindElements",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690819013	Marionette	DEBUG	0 <- [1,91,null,[{"element-6066-11e4-a52e-4f735466cecf":"9d2ef15e-4f7f-46cd-ba8d-1384698a6639"}]]
+1561690819021	Marionette	DEBUG	0 -> [0,92,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"9d2ef15e-4f7f-46cd-ba8d-1384698a6639"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690819032	Marionette	DEBUG	0 <- [1,92,null,{"value":true}]
+1561690819036	Marionette	DEBUG	0 -> [0,93,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690819037	Marionette	DEBUG	0 <- [1,93,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9d2ef15e-4f7f-46cd-ba8d-1384698a6639"}}]
+1561690819040	Marionette	DEBUG	0 -> [0,94,"WebDriver:ElementClear",{"id":"9d2ef15e-4f7f-46cd-ba8d-1384698a6639"}]
+1561690819043	Marionette	DEBUG	0 <- [1,94,null,{"value":null}]
+1561690819047	Marionette	DEBUG	0 -> [0,95,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690819048	Marionette	DEBUG	0 <- [1,95,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9d2ef15e-4f7f-46cd-ba8d-1384698a6639"}}]
+1561690819052	Marionette	DEBUG	0 -> [0,96,"WebDriver:ElementSendKeys",{"id":"9d2ef15e-4f7f-46cd-ba8d-1384698a6639","text":"tc2@tek-experts.com","value":["t","c","2","@","t","e","k","-","e","x","p","e","r","t","s",".","c","o","m"]}]
+1561690819064	Marionette	DEBUG	0 <- [1,96,null,{"value":null}]
+1561690820068	Marionette	DEBUG	0 -> [0,97,"WebDriver:FindElements",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690820070	Marionette	DEBUG	0 <- [1,97,null,[{"element-6066-11e4-a52e-4f735466cecf":"e2caac70-0236-4e8b-ba2c-d6d9e4807b06"}]]
+1561690820079	Marionette	DEBUG	0 -> [0,98,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"e2caac70-0236-4e8b-ba2c-d6d9e4807b06"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690820091	Marionette	DEBUG	0 <- [1,98,null,{"value":true}]
+1561690820094	Marionette	DEBUG	0 -> [0,99,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690820096	Marionette	DEBUG	0 <- [1,99,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e2caac70-0236-4e8b-ba2c-d6d9e4807b06"}}]
+1561690820098	Marionette	DEBUG	0 -> [0,100,"WebDriver:ElementClear",{"id":"e2caac70-0236-4e8b-ba2c-d6d9e4807b06"}]
+1561690820100	Marionette	DEBUG	0 <- [1,100,null,{"value":null}]
+1561690820103	Marionette	DEBUG	0 -> [0,101,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690820105	Marionette	DEBUG	0 <- [1,101,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e2caac70-0236-4e8b-ba2c-d6d9e4807b06"}}]
+1561690820109	Marionette	DEBUG	0 -> [0,102,"WebDriver:ElementSendKeys",{"id":"e2caac70-0236-4e8b-ba2c-d6d9e4807b06","text":"GNDICE","value":["G","N","D","I","C","E"]}]
+1561690820117	Marionette	DEBUG	0 <- [1,102,null,{"value":null}]
+1561690821121	Marionette	DEBUG	0 -> [0,103,"WebDriver:FindElements",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690821123	Marionette	DEBUG	0 <- [1,103,null,[{"element-6066-11e4-a52e-4f735466cecf":"f54ad065-a98f-45ed-a074-3a04da3a4372"}]]
+1561690821132	Marionette	DEBUG	0 -> [0,104,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"f54ad065-a98f-45ed-a074-3a04da3a4372"}],"ne ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690821146	Marionette	DEBUG	0 <- [1,104,null,{"value":true}]
+1561690821150	Marionette	DEBUG	0 -> [0,105,"WebDriver:FindElement",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690821152	Marionette	DEBUG	0 <- [1,105,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f54ad065-a98f-45ed-a074-3a04da3a4372"}}]
+1561690821156	Marionette	DEBUG	0 -> [0,106,"WebDriver:ElementClick",{"id":"f54ad065-a98f-45ed-a074-3a04da3a4372"}]
+1561690821164	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://10.17.14.207:8282/
+1561690821261	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://10.17.14.207:8282/
+1561690821262	Marionette	TRACE	[6442450945] Received DOM event unload for http://10.17.14.207:8282/
+1561690821344	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://10.17.14.207:8282/
+1561690821352	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://10.17.14.207:8282/
+1561690821353	Marionette	DEBUG	0 <- [1,106,null,{"value":null}]
+1561690823357	Marionette	DEBUG	0 -> [0,107,"WebDriver:FindElements",{"using":"xpath","value":".//div[@class='validation-summary-errors']//span"}]
+1561690823359	Marionette	DEBUG	0 <- [1,107,null,[{"element-6066-11e4-a52e-4f735466cecf":"a7eac1cb-cb37-436e-9e20-bd850a3d8016"}]]
+1561690823368	Marionette	DEBUG	0 -> [0,108,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"a7eac1cb-cb37-436e-9e20-bd850a3d8016"}],"ne ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690823382	Marionette	DEBUG	0 <- [1,108,null,{"value":true}]
+1561690823385	Marionette	DEBUG	0 -> [0,109,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='validation-summary-errors']//span"}]
+1561690823387	Marionette	DEBUG	0 <- [1,109,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a7eac1cb-cb37-436e-9e20-bd850a3d8016"}}]
+1561690823389	Marionette	DEBUG	0 -> [0,110,"WebDriver:GetElementText",{"id":"a7eac1cb-cb37-436e-9e20-bd850a3d8016"}]
+1561690823393	Marionette	DEBUG	0 <- [1,110,null,{"value":"The username or password is incorrect"}]
+1561690823397	Marionette	DEBUG	0 -> [0,111,"WebDriver:FindElement",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690833407	Marionette	DEBUG	0 <- [1,111,{"error":"no such element","message":"Unable to locate element: .//a[@id='btn-signout']","stacktrace":"WebDriverError@ ... entError@chrome://marionette/content/error.js:389:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1561690833413	Marionette	DEBUG	0 -> [0,112,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690833455	Marionette	DEBUG	0 <- [1,112,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"df1b6d9b-2915-44bd-9320-de56425fa034"}}]
+1561690833459	Marionette	DEBUG	0 -> [0,113,"WebDriver:ElementClear",{"id":"df1b6d9b-2915-44bd-9320-de56425fa034"}]
+1561690833465	Marionette	DEBUG	0 <- [1,113,null,{"value":null}]
+1561690833469	Marionette	DEBUG	0 -> [0,114,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690833471	Marionette	DEBUG	0 <- [1,114,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"df1b6d9b-2915-44bd-9320-de56425fa034"}}]
+1561690833475	Marionette	DEBUG	0 -> [0,115,"WebDriver:ElementSendKeys",{"id":"df1b6d9b-2915-44bd-9320-de56425fa034","text":"Traveler2@tek-experts.com","value":["T","r","a","v","e","l","e","r","2","@","t","e","k","-","e","x","p","e","r","t","s",".","c","o","m"]}]
+1561690833500	Marionette	DEBUG	0 <- [1,115,null,{"value":null}]
+1561690833503	Marionette	DEBUG	0 -> [0,116,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Email']"}]
+1561690833506	Marionette	DEBUG	0 <- [1,116,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"df1b6d9b-2915-44bd-9320-de56425fa034"}}]
+1561690833512	Marionette	DEBUG	0 -> [0,117,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"df1b6d9b-2915-44bd-9320-de56425fa034"},"val ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690833519	Marionette	DEBUG	0 <- [1,117,null,{"value":"Traveler2@tek-experts.com"}]
+1561690833522	Marionette	DEBUG	0 -> [0,118,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690833525	Marionette	DEBUG	0 <- [1,118,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"20d0bfff-8108-41e5-8017-8475de46640e"}}]
+1561690833530	Marionette	DEBUG	0 -> [0,119,"WebDriver:ElementClear",{"id":"20d0bfff-8108-41e5-8017-8475de46640e"}]
+1561690833532	Marionette	DEBUG	0 <- [1,119,null,{"value":null}]
+1561690833536	Marionette	DEBUG	0 -> [0,120,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690833537	Marionette	DEBUG	0 <- [1,120,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"20d0bfff-8108-41e5-8017-8475de46640e"}}]
+1561690833541	Marionette	DEBUG	0 -> [0,121,"WebDriver:ElementSendKeys",{"id":"20d0bfff-8108-41e5-8017-8475de46640e","text":"Travel@123","value":["T","r","a","v","e","l","@","1","2","3"]}]
+1561690833559	Marionette	DEBUG	0 <- [1,121,null,{"value":null}]
+1561690833565	Marionette	DEBUG	0 -> [0,122,"WebDriver:FindElement",{"using":"xpath","value":".//div[@class='form-group ']//input[@name='Password']"}]
+1561690833569	Marionette	DEBUG	0 <- [1,122,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"20d0bfff-8108-41e5-8017-8475de46640e"}}]
+1561690833573	Marionette	DEBUG	0 -> [0,123,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"20d0bfff-8108-41e5-8017-8475de46640e"},"val ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690833581	Marionette	DEBUG	0 <- [1,123,null,{"value":"Travel@123"}]
+1561690833584	Marionette	DEBUG	0 -> [0,124,"WebDriver:FindElement",{"using":"xpath","value":".//button[@type='submit' and text()='Sign In']"}]
+1561690833586	Marionette	DEBUG	0 <- [1,124,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"27b9c209-9ccd-4ce7-a692-7b997fa2f229"}}]
+1561690833589	Marionette	DEBUG	0 -> [0,125,"WebDriver:ElementClick",{"id":"27b9c209-9ccd-4ce7-a692-7b997fa2f229"}]
+1561690833599	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://10.17.14.207:8282/
+1561690833719	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://10.17.14.207:8282/
+1561690833721	Marionette	TRACE	[6442450945] Received DOM event unload for http://10.17.14.207:8282/
+1561690834393	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://10.17.14.207:8282/PersonalRequest/Index
+1561690834657	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://10.17.14.207:8282/PersonalRequest/Index
+1561690834658	Marionette	DEBUG	0 <- [1,125,null,{"value":null}]
+1561690836663	Marionette	DEBUG	0 -> [0,126,"WebDriver:FindElement",{"using":"xpath","value":".//div[@id='step-0']//button[@class='close']"}]
+1561690846673	Marionette	DEBUG	0 <- [1,126,{"error":"no such element","message":"Unable to locate element: .//div[@id='step-0']//button[@class='close']","stacktr ... entError@chrome://marionette/content/error.js:389:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1561690846677	Marionette	DEBUG	0 -> [0,127,"WebDriver:FindElement",{"using":"xpath","value":".//li[@id='submyRequest']//a"}]
+1561690846681	Marionette	DEBUG	0 <- [1,127,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"97d8abd4-f815-4367-a70a-44c53b18db1f"}}]
+1561690846694	Marionette	DEBUG	0 -> [0,128,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"97d8abd4-f815-4367-a70a-44c53b18db1f"}],"ne ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690846709	Marionette	DEBUG	0 <- [1,128,null,{"value":true}]
+1561690846711	Marionette	DEBUG	0 -> [0,129,"WebDriver:FindElement",{"using":"xpath","value":".//li[@id='submyTrip']//a"}]
+1561690846714	Marionette	DEBUG	0 <- [1,129,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3cab1f54-87b4-4723-b200-a900b8e43b52"}}]
+1561690846722	Marionette	DEBUG	0 -> [0,130,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"3cab1f54-87b4-4723-b200-a900b8e43b52"}],"ne ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690846734	Marionette	DEBUG	0 <- [1,130,null,{"value":true}]
+1561690846738	Marionette	DEBUG	0 -> [0,131,"WebDriver:FindElement",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690846740	Marionette	DEBUG	0 <- [1,131,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5867ff69-622f-4c60-8237-daf5384e8f52"}}]
+1561690846749	Marionette	DEBUG	0 -> [0,132,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"5867ff69-622f-4c60-8237-daf5384e8f52"}],"ne ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690846762	Marionette	DEBUG	0 <- [1,132,null,{"value":true}]
+1561690846764	Marionette	DEBUG	0 -> [0,133,"WebDriver:FindElements",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690846767	Marionette	DEBUG	0 <- [1,133,null,[{"element-6066-11e4-a52e-4f735466cecf":"5867ff69-622f-4c60-8237-daf5384e8f52"}]]
+1561690846771	Marionette	DEBUG	0 -> [0,134,"WebDriver:FindElement",{"using":"xpath","value":".//a[@id='btn-signout']"}]
+1561690846774	Marionette	DEBUG	0 <- [1,134,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5867ff69-622f-4c60-8237-daf5384e8f52"}}]
+1561690846778	Marionette	DEBUG	0 -> [0,135,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"5867ff69-622f-4c60-8237-daf5384e8f52","element-6066-11e4-a52e-4f735466c ... 2f-4c60-8237-daf5384e8f52"}],"newSandbox":false,"script":"arguments[0].click();","scriptTimeout":null,"specialPowers":false}]
+1561690846801	Marionette	DEBUG	0 <- [1,135,null,{"value":null}]
+1561690848805	Marionette	DEBUG	0 -> [0,136,"WebDriver:FindElements",{"using":"xpath","value":".//div[@id='logout-confirm-modal']//input[@class='btn btn-primary']"}]
+1561690848807	Marionette	DEBUG	0 <- [1,136,null,[{"element-6066-11e4-a52e-4f735466cecf":"215f130a-2c01-400b-9d9a-e4e6f465ee15"}]]
+1561690848817	Marionette	DEBUG	0 -> [0,137,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"215f130a-2c01-400b-9d9a-e4e6f465ee15"}],"ne ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1561690848831	Marionette	DEBUG	0 <- [1,137,null,{"value":true}]
+1561690848833	Marionette	DEBUG	0 -> [0,138,"WebDriver:IsElementEnabled",{"id":"215f130a-2c01-400b-9d9a-e4e6f465ee15"}]
+1561690848838	Marionette	DEBUG	0 <- [1,138,null,{"value":true}]
+1561690848842	Marionette	DEBUG	0 -> [0,139,"WebDriver:FindElement",{"using":"xpath","value":".//div[@id='logout-confirm-modal']//input[@class='btn btn-primary']"}]
+1561690848843	Marionette	DEBUG	0 <- [1,139,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"215f130a-2c01-400b-9d9a-e4e6f465ee15"}}]
+1561690848846	Marionette	DEBUG	0 -> [0,140,"WebDriver:ElementClick",{"id":"215f130a-2c01-400b-9d9a-e4e6f465ee15"}]
+1561690848861	Marionette	TRACE	[6442450945] Received DOM event beforeunload for http://10.17.14.207:8282/PersonalRequest/Index
+1561690848886	Marionette	TRACE	[6442450945] Received DOM event pagehide for http://10.17.14.207:8282/PersonalRequest/Index
+1561690848888	Marionette	TRACE	[6442450945] Received DOM event unload for http://10.17.14.207:8282/PersonalRequest/Index
+1561690848977	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for http://10.17.14.207:8282/
+1561690848987	Marionette	TRACE	[6442450945] Received DOM event pageshow for http://10.17.14.207:8282/
+1561690848988	Marionette	DEBUG	0 <- [1,140,null,{"value":null}]
+1561690850993	Marionette	DEBUG	0 -> [0,141,"WebDriver:CloseWindow",{}]
+1561690850994	Marionette	DEBUG	0 <- [1,141,null,[]]
+1561690850994	Marionette	DEBUG	0 -> [0,142,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1561690850995	Marionette	INFO	Stopped listening on port 53426
+1561690851072	Marionette	TRACE	Received observer notification quit-application
+1561690851077	Marionette	DEBUG	0 <- [1,142,null,{"cause":"shutdown"}]
+[Parent 12380, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1561690851143	Marionette	DEBUG	Closed connection 0
+[Child 7228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7228, Chrome_ChildThread] WARNI[Child 17208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ip1561690851337	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1561690851337	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1561690851337	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1561690851337	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1561690851337	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1561690851338	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1561690851338	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1561690851338	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1561690851338	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1561690851338	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1561690851338	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1561690851338	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1561690851339	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1561690851339	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1561690851339	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1561690851339	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1561690851339	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1561690851339	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1561690851339	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1561690851339	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1561690851339	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1561690851339	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1561690851339	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1561690851339	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1561690851339	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1561690851340	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1561690851340	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1561690851340	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1561690851340	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 17544, Chrome_ChildThread] WAR
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
