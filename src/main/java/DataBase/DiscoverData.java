@@ -9,6 +9,8 @@ import java.sql.Statement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import Utils.TestLogger;
+
 public class DiscoverData {
 	public static Connection con;
 	public static String URL = "jdbc:sqlserver://10.17.14.206;databaseName=TravelTool_v2_Testing";
@@ -29,7 +31,7 @@ public class DiscoverData {
 	    } catch (SQLException e) {
 	        e.printStackTrace();
 	    }
-	    System.out.println("Connection created");
+	    TestLogger.info("Connection created");
 
 	    return con;	    
 	}
@@ -43,9 +45,9 @@ public class DiscoverData {
 		ResultSet rs = smt.executeQuery("SELECT TOP 10 * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "'ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Content Email Founded !");
+			TestLogger.info("Content Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -58,14 +60,14 @@ public class DiscoverData {
 	public static String getColumnSubject(Connection con,String valueEmail) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Subject Email Statement Created.");
+		TestLogger.info("Subject Email Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT TOP 10 * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "'ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Subject Email Founded !");
+			TestLogger.info("Subject Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -78,14 +80,14 @@ public class DiscoverData {
 	public static String getColumnRoleId(Connection con,String valueEmail) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Role ID Statement Created.");
+		TestLogger.info("Role ID Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT TOP 10 * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "'ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Role ID founded !");
+			TestLogger.info("Role ID founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -97,14 +99,14 @@ public class DiscoverData {
 	public static String getStatus(Connection con, String valueEmail) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Status Statement Created.");
+		TestLogger.info("Status Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT TOP 10 * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "'ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Status Founded !");
+			TestLogger.info("Status Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -116,14 +118,14 @@ public class DiscoverData {
 	public static String getColumnEmail(Connection con, String valueEmail) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Status Statement Created.");
+		TestLogger.info("Status Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT TOP 10 * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "'ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Email Founded !");
+			TestLogger.info("Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -135,13 +137,13 @@ public class DiscoverData {
 	public static String contentEmail(Connection con, String valueEmail, String RoleId) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Statement Created.");
+		TestLogger.info("Statement Created.");
 
 		 ResultSet rs = smt.executeQuery("SELECT * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail + "' AND RoleId ='" + RoleId + "' ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Content Email Founded !");
+			TestLogger.info("Content Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -153,14 +155,14 @@ public class DiscoverData {
 	public static String travelAlert(Connection con, String valueEmail, String RoleId) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Travel Alert Statement Created.");
+		TestLogger.info("Travel Alert Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "' and ContentEmail like '%TRAVEL ALERT%' ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Travel Alert Email Founded !");
+			TestLogger.info("Travel Alert Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -172,14 +174,14 @@ public class DiscoverData {
 	public static String urgentRequestAlert(Connection con, String valueEmail, String RoleId) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Urgent Request Alert Statement Created.");
+		TestLogger.info("Urgent Request Alert Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "' and Subject like '%URGENT REQUEST ALERT%' and RoleId = '"+ RoleId +"'ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Urgent Request Alert Email Founded !");
+			TestLogger.info("Urgent Request Alert Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -191,14 +193,14 @@ public class DiscoverData {
 	public static String tripComplete(Connection con, String valueEmail, String RoleId) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Urgent Request Alert Statement Created.");
+		TestLogger.info("Urgent Request Alert Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "' and Subject like '%COMPLETE%' and RoleId = '"+ RoleId +"'ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Trip Complete Email Founded !");
+			TestLogger.info("Trip Complete Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -210,14 +212,14 @@ public class DiscoverData {
 	public static String cancelTrip(Connection con, String valueEmail, String RoleId) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Cancel Trip Statement Created.");
+		TestLogger.info("Cancel Trip Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "' and Subject like '%CANCEL%' and RoleId = '"+ RoleId +"' ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Trip Canceled Email Founded !");
+			TestLogger.info("Trip Canceled Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -229,14 +231,14 @@ public class DiscoverData {
 	public static String travelArrangements(Connection con, String valueEmail, String RoleId) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Cancel Trip Statement Created.");
+		TestLogger.info("Cancel Trip Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator='" + valueEmail
 				+ "' and Subject like '%arrangements%' and RoleId = '"+ RoleId +"' ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Travel Arrangements Email Founded !");
+			TestLogger.info("Travel Arrangements Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -248,13 +250,13 @@ public class DiscoverData {
 	public static String tripAssignment(Connection con, String valueEmail1, String valueEmail2) throws SQLException
 	{
 		Statement smt = con.createStatement();
-		System.out.println("Trip Assign Statement Created.");
+		TestLogger.info("Trip Assign Statement Created.");
 
 		ResultSet rs = smt.executeQuery("SELECT * FROM TravelTool_v2_Testing.dbo.SendEmail Where Creator= '"+valueEmail1+"' and Email= '"+valueEmail2+"' ORDER BY CreatedDate desc;");
 		if (rs.next()) {
-			System.out.println("Trip Assignment Email Founded !");
+			TestLogger.info("Trip Assignment Email Founded !");
 		} else {
-			System.out.println("NO DATA !");
+			TestLogger.info("NO DATA !");
 			return "";
 		}
 		//System.out.println("Query Executed");
@@ -264,7 +266,7 @@ public class DiscoverData {
 	
 	public static String getContentOnJsonElement(String dataFromColumnSubject, String nameOfWantedJsonElement)
 	{
-		System.out.println(dataFromColumnSubject);
+		TestLogger.info(dataFromColumnSubject);
 		JsonParser k = new JsonParser();
 	    JsonObject element =k.parse(dataFromColumnSubject).getAsJsonObject();
 	    if (!element.isJsonNull())
@@ -274,7 +276,7 @@ public class DiscoverData {
 	    }
 	    else
 	    {
-	    	System.out.println("NO DATA !");
+	    	TestLogger.info("NO DATA !");
 	    	return "";
 	    }
 			
